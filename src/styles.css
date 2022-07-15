@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+/*generales*/
+:root{
+    --black: #100f19;
+    --soft-cyan: #96ceb3;
+    --cream: #ffeeae;
+    --tomato: #d95350;
+    --orange: #ffad61;
+}
+html {
+    height: 100%;
+}
+
+ol, ul{
+    list-style: none;
+}
+i{
+    transition: all 0.1s ease-in-out;
+}
+
+/*reutilizables*/
+.bg-black {
+    background-color: var(--black);
+}
+
+@media (min-width: 768px) {
+  i.bi:hover{
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 1px green);
+}  
+}
+.img-info{
+    width: 200px;
+    height: 200px;
+}
+.edit-tools > button, .button-add {
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    background: none;
+}
+/*HOME*/
+/*NAV*/
+nav.nav-footer > ul > li >a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrap-dev-image{
+margin-top: -120px;
+}
+.dev-image{
+    border-radius: 50%;
+}
+
