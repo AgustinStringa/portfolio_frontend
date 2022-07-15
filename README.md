@@ -1,3 +1,7 @@
+# Portfolio Frontend - Yo Programo
+
+Frontend para el proyecto integrador final del programa YoProgramo, segunda etapa de Argentina Programa.
+
 # PortfolioFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
