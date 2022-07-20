@@ -11,7 +11,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.rutaActiva.params.subscribe((params: Params) => {
-      console.log(params);
+      // console.log(params);
     });
   }
   title = 'portfolio_frontend';

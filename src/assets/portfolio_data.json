@@ -1,0 +1,39 @@
+{
+    "name": "Agustin Stringa",
+    "banner-url": "https://www.vecteezy.com/free-vector/coding-banner",
+    "social_media": [
+        {
+            "name": "link"
+        },
+        {
+            "name": "link"
+        },
+        {
+            "name": "link"
+        },
+        {
+            "name": "link"
+        }
+    ],
+    "img_src": "",
+    "position": "Técnico en programación - Estudiante de Ingeniería en Sistemas de Información",
+    "location": "Rosario, Santa Fé, Argentina",
+    "about": "Tengo 19 años, soy Técnico en Programación egresado de IPETyM N°59 '25 de Mayo' y actual estudiante de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional Facultad Regional Rosario. Hace más de 2 años que estudio de forma autodidacta desarrollo web y aspectos avanzados de la programación en general. Me considero una persona apasionada por el conocimiento, responsable, proactiva y con muy buenas habilidades de comunicación y relación con las personas. Al momento, cuento con experiencia en proyectos personales y laborales con amplias tecnologías del desarrollo web y de software.",
+    "experience": [
+        {
+            "img": "",
+            "position": "",
+            "companyName": "",
+            "date": "",
+            "location": ""
+        }
+    ],
+    "education": [
+        {
+            "img": "",
+            "institutionName": "",
+            "degree": "",
+            "date": ""
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+<header>
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark text-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">{{
+        portfolio_data.name
+      }}</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end bg-dark"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            {{ portfolio_data.name }}
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-light"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul
+            class="navbar-nav justify-content-end flex-grow-1 pe-3 my-3 my-md-0"
+          >
+            <li class="nav-item d-flex align-items-center mx-3 fs-4">
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li class="nav-item d-flex align-items-center mx-3 fs-4">
+              <a href="#"><i class="bi bi-github"></i></a>
+            </li>
+            <li class="nav-item d-flex align-items-center mx-3 fs-4">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="nav-item d-flex align-items-center mx-3 fs-4">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+          </ul>
+          <form class="d-flex mx-md-2" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary" type="submit">
+              Search
+            </button>
+          </form>
+          <button
+            class="btn btn-outline-success d-block d-md-inline my-2 my-md-0"
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
