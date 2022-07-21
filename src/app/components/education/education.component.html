@@ -7,23 +7,27 @@
   </div>
 
   <ol class="list-group list-group-flush">
-    <li class="list-group-item">
+    <li class="list-group-item" *ngFor="let education_item of education_list">
       <div class="row">
         <div class="col-md-10 d-md-flex align-items-center">
           <img
-            src="../assets/logo-utn-.png"
-            alt="logo UTN"
+            [src]="education_item.img || 'https://via.placeholder.com/200'"
+            alt="logo instituvo educativo"
             class="img-fluid img-info d-block"
           />
 
           <div
             class="info-exp-item mx-md-3 d-flex flex-column justify-content-center"
           >
-            <p class="title-info fs-2 mb-0">Universidad Tecnológica Nacional</p>
-            <p class="role-info fs-4 text-secondary mb-0">
-              Ingeniería en Sistemas de Información
+            <p class="title-info fs-2 mb-0">
+              {{ education_item.institutionName }}
             </p>
-            <p class="date-info fs-5 text-secondary">2022-presente</p>
+            <p class="role-info fs-4 text-secondary mb-0">
+              {{ education_item.degree }}
+            </p>
+            <p class="date-info fs-5 text-secondary">
+              {{ education_item.date }}
+            </p>
           </div>
         </div>
 
@@ -34,7 +38,7 @@
       </div>
     </li>
 
-    <li class="list-group-item">
+    <!-- <li class="list-group-item">
       <div class="row">
         <div class="col-md-10 d-md-flex align-items-center">
           <img
@@ -59,6 +63,6 @@
           <button><i class="bi bi-trash-fill"></i></button>
         </div>
       </div>
-    </li>
+    </li> -->
   </ol>
 </div>

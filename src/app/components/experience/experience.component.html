@@ -6,23 +6,25 @@
     </div>
   </div>
   <ol class="list-group list-group-flush">
-    <li class="list-group-item">
+    <li class="list-group-item" *ngFor="let experience_item of experience_list">
       <div class="row">
         <div class="col-md-10 d-md-flex align-items-center">
           <img
-            src="../assets/logo_haz_historia.jpg"
-            alt="logo experiencia"
+            [src]="experience_item.img || 'https://via.placeholder.com/200'"
+            alt="logo companía"
             class="img-fluid d-block"
           />
           <div
             class="info-exp-item mx-md-3 d-flex flex-column justify-content-center"
           >
-            <p class="title-info fs-2 mb-0">Maquetación Web Freelance</p>
+            <p class="title-info fs-2 mb-0">{{ experience_item.position }}</p>
             <p class="role-info fs-4 text-secondary mb-0">
-              Haz Historia - Desarrollo web
+              {{ experience_item.companyName }}
             </p>
-            <p class="date-info fs-5 text-secondary">Febrero - Abril 2022</p>
-            <p class="fs-5 text-secondary">Remoto</p>
+            <p class="date-info fs-5 text-secondary">
+              {{ experience_item.date }}
+            </p>
+            <p class="fs-5 text-secondary">{{ experience_item.location }}</p>
           </div>
         </div>
         <div class="col-12 col-md-2 text-end pt-2">

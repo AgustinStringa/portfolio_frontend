@@ -22,18 +22,24 @@
     "experience": [
         {
             "img": "",
-            "position": "",
-            "companyName": "",
-            "date": "",
-            "location": ""
+            "position": "Maquetador Web Freelancer",
+            "companyName": "Haz Historia - Empresa de desarrollo web",
+            "date": "Febrero - Abril 2022",
+            "location": "Remoto"
         }
     ],
     "education": [
         {
             "img": "",
-            "institutionName": "",
-            "degree": "",
-            "date": ""
+            "institutionName": "Universidad Tecnológica Nacional",
+            "degree": "Ingeniería en Sistemas de Información",
+            "date": "2022-presente"
+        },
+        {
+            "img": "",
+            "institutionName": "IPETYM - N°59 '25 DE MAYO'",
+            "degree": "Técnico en Programación",
+            "date": "2015-2021"
         }
     ]
 }
